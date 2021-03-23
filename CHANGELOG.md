@@ -1,5 +1,39 @@
 # Changelog
+## [4.0.0] - 2021-03-04
+### Added
+- Option to generate null safety compatible code & support for Flutter 2.0 & dart 2.12
+### Removed
+- Updated to locale_gen 3.0.0 -> nullsafe flag is removed. nullsafe is used by default
 
+## [3.1.0] - 2021-02-09
+### Added
+- Option to generate null safety compatible code
+
+## [3.0.5] - 2020-10-06
+### Fixed
+-#24: error when using locale_asset_path in combination with the icapps_translations package (fixed in locale_gen)
+
+## [3.0.4] - 2020-10-03
+### Fixed
+-Version locale_gen
+
+## [3.0.3] - 2020-10-03
+### Fixed
+-Version bump packages
+
+## [3.0.2] - 2020-10-03
+### Fixed
+-Android embedding v2
+
+## [3.0.1] - 2020-10-03
+### Updated
+-Documentation updated
+-locale_gen version bump to 2.0.1
+ 
+## [3.0.0] - 2020-10-03
+### REFACTOR
+-Full rewrite. Uses locale_gen as a base packge so the logic is only stored in locale_gen. (locale_gen is the offline alternative)
+ 
 ## [2.2.0] - 2020-06-16
 ### Added
 -Support for strict mode 
